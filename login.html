@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+ 
+      <div class="dropdown">
+       <a class="navbar-brand dropdown-toggle" href="#" id="logoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <img src="https://i.pinimg.com/736x/7b/8c/d8/7b8cd8b068e4b9f80b4bcf0928d7d499.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+       </a>
+       <ul class="dropdown-menu" aria-labelledby="logoDropdown">
+         <li><a class="dropdown-item" href="login.html">User Login</a></li>
+         <li><a class="dropdown-item" href="admin.html">Admin Login</a></li>
+       </ul>
+     </div>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
+
+  <div class="login-container">
+    <h2 class="text-center">User Login</h2>
+    <form id="loginForm">
+      <div class="mb-3">
+        <input type="text" class="form-control" id="username" placeholder="Enter your username">
+        <small class="error-message" id="usernameError"></small>
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+        <small class="error-message" id="passwordError"></small>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Login</button>
+    </form>
+  </div>
+  
+  <script src="./js/login.js"></script>
+</body>z
+</html>

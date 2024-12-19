@@ -1,0 +1,58 @@
+*{
+ margin:0px;
+ padding: 0px;
+}
+body{
+ font-family: Arial, sans-serif;
+ position: relative;
+ height: 100vh;
+ width: 100%;
+ background-image: url(https://static01.nyt.com/images/2021/01/17/fashion/13workathome/13workathome-superJumbo.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.navbar {
+ padding: 10px 20px;
+
+}
+.navbar .nav-link {
+ color: rgb(0, 0, 0);
+ font-size: 1.1em;
+ margin-right: 20px;
+ transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+ color: #ede90d; 
+}
+.navbar-brand img {
+ border-radius: 50%; 
+}
+.navbar .nav-link {
+margin-right: 90px;
+}
+.dropdown-menu {
+ border-radius: 8px;
+ border: none;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown-menu a {
+ color: #333;
+ transition: background-color 0.3s ease;
+}
+.dropdown-menu a:hover {
+ background-color: #e6ef46;
+}
+
+.login-container {
+ max-width: 400px;
+ margin: 100px auto;
+ padding: 20px;
+ background: white;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.error-message {
+ font-size: 0.9em;
+ color: red;
+}
