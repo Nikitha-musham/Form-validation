@@ -1,5 +1,5 @@
 # Form-validation
-This simple web-app project demonstrates a **Login and Admin Authentication System** using.<br> It includes separate forms for regular users and admin users with proper validation and error handling.<br>
+This simple web-app project demonstrates a **Login and Admin Authentication System** .<br> It includes separate forms for regular users and admin users with proper validation and error handling.<br>
 
 ## Features:<br>
 
